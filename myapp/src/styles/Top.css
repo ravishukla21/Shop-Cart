@@ -1,0 +1,32 @@
+#main{
+    background-color: #003D29;
+    display: flex;
+    justify-content: space-between;
+    /* height: 30px; */
+    align-items: center;
+    padding-left:80px ;
+    padding-right: 80px;
+    cursor: pointer;
+    font-size: 14px;
+    color: white;
+    padding-top: 5px;
+    
+  
+}
+.contact{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.mid{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.end{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+
+}
