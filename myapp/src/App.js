@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Top from './Components/Top';
 import Navbar from './Components/Navbar';
+import ProductCard from './Components/ProductCard';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         actualsize
       <Top/>
       <Navbar/>
+      <ProductCard/>
    
     </div>
   );
