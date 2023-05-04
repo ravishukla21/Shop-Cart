@@ -16,7 +16,7 @@
 .contact{
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 10px;
 }
 .mid{
     display: flex;
@@ -30,3 +30,4 @@
     gap: 20px;
 
 }
+
