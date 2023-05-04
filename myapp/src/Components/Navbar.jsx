@@ -7,6 +7,7 @@ import logo from "../images/ShopCart.png"
 import {MdShoppingCartCheckout } from "react-icons/md";
 import { ImUser } from "react-icons/im";
 import { ImSearch } from "react-icons/im";
+import Login from '../Pages/Login';
 
 
 const Navbar = () => {
@@ -171,7 +172,7 @@ const Navbar = () => {
                  <div className="div" id="d1">
                      <h5 id="lh5">Welcome</h5>
                      <p id="lp">To access account and manage order</p>
-                     <button id="ls"><Link id="logincss"to="/">LOGIN / SIGNUP</Link></button>
+                     <button id="ls"><Link id="logincss"to="/"><Login/></Link></button>
                      <br/>
                      <>
                          <ul style={{textAlign:"left"}}>
