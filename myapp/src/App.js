@@ -3,15 +3,17 @@ import './App.css';
 import Top from './Components/Top';
 import Navbar from './Components/Navbar';
 import ProductCard from './Components/ProductCard';
+import Footer from './Components/Footer';
 
 function App() {
   return (
     <div className="App">
-        actualsize
       <Top/>
       <Navbar/>
       <ProductCard/>
-   
+      
+      <Footer/>
+
     </div>
   );
 }

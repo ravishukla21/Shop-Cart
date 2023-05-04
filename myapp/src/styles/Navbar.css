@@ -1,8 +1,8 @@
 body{
-
-
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
-
 #two
 {
 
@@ -42,31 +42,34 @@ body{
     width: 100%;
 
     height:80px;
+    overflow: hidden;
+  
    
 
 }
 
 #navbar{
     
-    margin-top: 30px;
+    /* margin-top: 30px; */
     
-
+ 
     display: flex;
     background-color: white;
     
-    height:80px;
+    height:70px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    box-shadow: 0 4px 12px 0 rgb(0 0 0 / 5%);
+    /* box-shadow: 0 4px 12px 0 rgb(0 0 0 / 5%); */
     background-color: #FFFFFF;
     width:100%;
     justify-content: space-between;
     align-items: center;
     top:0;
+  
     /* overflow:visible; */
     z-index: 1;
-    position: fixed;   
+    
 
-    /* border: 2px solid red; */
+    border: 2px solid red;
      padding-bottom: 20px;
     
 }
@@ -85,16 +88,18 @@ body{
 .logo_div{
     /* margin-right: 15px; */
     /* border: 1px solid green; */
-   width: 65px;
+   width: 100px;
  
    height:75%;
    cursor:pointer;
 }
 #logo{
     height:36px;
-    width: 53px;
     margin-bottom: 10px;
     margin-left: 20px;
+}
+img{
+    width: 100%;
 }
 /* .logo_div:hover{
     width: 68px;
@@ -111,16 +116,20 @@ body{
    /* flex-wrap: nowrap; */
    height:100%;
    align-items: flex-end;
+   text-align: left;
 }
-/* 
-.menu_div>a{
+
+
+
+
+.menu_div>Link{
     margin-right: 30px;
     font-weight:550;
     color: rgb(40,44,63);
     text-decoration: none;
     font-size:14px;
     
-} */
+}
 
 .parent-box-2{
     /* border:1px solid red; */
@@ -135,13 +144,14 @@ body{
 
 
 .div1>span{
-  /* border-right: 3px solid grey; */
+  /* border-right: 3px solid blue; */
   margin-left: -370px;
   /* margin-left: 200px; */
    
   text-align:center;
   cursor:pointer;
   color:grey;
+ 
 }
 
 #search{
@@ -151,7 +161,7 @@ body{
     background-color: rgb(247, 247, 252);
     /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
     padding-left: 10px;
-    border-left: 1px solid grey;
+    border-left: 1px solid blue;
     border:0;
 }
 
@@ -212,9 +222,10 @@ body{
         display: inline-block;
         position: relative;
         height:70%;
+        
 }
 #main_div:hover{
-    border-bottom: 3px solid hotpink;
+    border-bottom: 3px solid blue;
 }
 #button{
     background-color:white;
@@ -229,10 +240,15 @@ body{
 }
 
 #button:hover{
-    color:hotpink;
+    color:blue;
+}
+ul{
+ /* border: 2px solid red; */
+ margin-left: 40px;
 }
 
 #asim1,#asim2,#asim3,#asim4,#asim5,#asim7{
+   
     background-color:white;
     /* box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px; */
     box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
@@ -247,8 +263,10 @@ body{
     /* margin-top: 29px; */
     /* border:1px solid red; */
     /* margin-left: -50px; */
-    
+
     margin-top: 36px;
+   
+    text-align: left;
 }
 
 #asim1{
@@ -281,14 +299,14 @@ body{
 #ls{
     margin-left:15px;
     background-color: white;
-    color:hotpink;
+    color:grey;
     font-weight: 600;
     height:40px;
     border:1px solid rgb(233, 233, 233);
 }
 
 #ls:hover{
-    border:1px solid hotpink;
+    border:1px solid blue;
     transition:.5s;
 }
 
@@ -302,16 +320,17 @@ body{
  
 }
 #lh5:hover{
-    color:hotpink;
+    color:blue;
 }
 
 #insider_span{
-    background-color: rgb(247, 74, 160);
+    background-color:blue;
     color:white;
     border:0;
     height: 30px;
     margin-left: 15px;
     border-radius: 0px 5px 5px 5px;
+    width: 100px;
       
 }
 
@@ -373,7 +392,7 @@ body{
     white-space: nowrap;
 }
 .an_div>a:hover{
-    background-color: hotpink;
+    background-color: blue;
 }
 
 #b{
@@ -391,7 +410,7 @@ body{
 }
 
 #d4{
-    color:hotpink;
+    color:blue;
 }
 #d6{
     margin-right: 20px;
@@ -403,20 +422,26 @@ body{
     cursor: pointer;
 
 }
-.h5>a{
+.h5{
+ color: black;
+ font-size: 20px;
+ font-weight: bold;
+}
+.h5>Link{
     text-decoration: none;
-    color: hotpink;
+    color: black;
+    font-weight: bold;
    
 
 }
 .h5:hover{
     transition: .3s;
-    color:rgb(245, 40, 142)
+    color:blue
     
 }
 .h5>a:hover{
     transition: .3s;
-    color:rgb(245, 40, 142)
+    color:blue
     
 }
 
@@ -431,7 +456,7 @@ ul>li>a{
 }
 
 ul>li>a:hover{
- color: hotpink;
+ color: blue;
  transition: .2s;
 }
 
@@ -449,11 +474,11 @@ ul>li>a:hover{
 
 #logincss{
     text-decoration: none;
-    color:hotpink;
+    color:blue;
 }
 
 sup{
-    color:hotpink;
+    color:blue;
     margin-left: 2px;
     font-size:12px;
 }
