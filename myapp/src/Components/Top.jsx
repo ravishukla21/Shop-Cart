@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 const Top = () => {
   return (
-  <div id='main'>
+  <div id='main' style={{height:"30px", paddingTop:"5px",paddingBottom:"3px"}}>
 <div className='contact'>
  <ImPhone /> <p id="num">+9190999002</p>  
 </div>
