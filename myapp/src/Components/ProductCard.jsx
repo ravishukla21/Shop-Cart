@@ -1,11 +1,10 @@
-import { Card, CardBody, CardFooter, Image, Stack, Heading, Text, Button, ButtonGroup, Flex, Spacer, Center } from '@chakra-ui/react'
-// import { Box, Rating, Typography } from '@mui/material';
-
+import { Card, CardHeader, CardBody, CardFooter, Image, Stack, Heading, Text, Button, ButtonGroup, Flex, Spacer, Center } from '@chakra-ui/react'
+import { Box, Rating, Typography } from '@mui/material';
 import React, { useState } from 'react'
+// import "../styles/ProductCard.css"
+import "../styles/Homepage.css"
 
 const ProductCard = () => {
-    // const [value, setValue] = useState < number | null > (2);
-
     return (
         <div style={{ margin: "50px" }}>
             <Card maxW='sm' >
@@ -19,8 +18,7 @@ const ProductCard = () => {
                         <Flex alignItems={'center'}>
                             <Heading size='md'>Gaming Headphone</Heading>
                             <Spacer />
-                            <Text
-                             color='black.800' fontSize='2xl'>
+                            <Text color='black.800' fontSize='2xl'>
                                 $239
                             </Text>
                         </Flex>
@@ -36,7 +34,7 @@ const ProductCard = () => {
 
                 <CardFooter>
                     <ButtonGroup spacing='2'>
-                        <Button style={{ borderRadius: "30px", padding: "20px 15px", backgroundColor: "#003d29", color: "white" }} colorScheme="teal"
+                        <Button className='atcBtn' style={{ borderRadius: "30px", padding: "20px 15px", }} colorScheme="#003d29"
                             variant='outline'>
                             Add to cart
                         </Button>

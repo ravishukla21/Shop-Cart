@@ -1,0 +1,22 @@
+.atcBtn:hover {
+  background-color: #003d29;
+  color: white;
+}
+.categories {
+  border-radius: 15px;
+}
+.head-text {
+  position: relative;
+}
+.text-on-image {
+  position: absolute;
+  right: 20%;
+  left: 35%;
+  bottom: 75%;
+  top: 10%;
+  /* border:  1px solid red; */
+}
+.categories_section {
+  margin-top: 50px;
+  margin-left: 100px;
+}
