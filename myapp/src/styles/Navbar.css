@@ -69,7 +69,7 @@ box-sizing: border-box;
     z-index: 1;
     
 
-    border: 2px solid red;
+    /* border: 2px solid red; */
      padding-bottom: 20px;
     
 }
@@ -491,7 +491,26 @@ sup{
     align-items: center;
 }
 
+@media screen  and (max-width:900px){
+  
+#search{
+    display: none;
+}
+#ImSearch{
+    display: none;
+}
+#asim1{
+    display: none;
+}
+}
+@media screen  and (max-width:620px){
+  
+    #main_div{
+        display: none;
+    }
 
+ 
+}
 
 
 
