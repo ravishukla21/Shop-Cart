@@ -106,7 +106,7 @@ const Navbar = () => {
     
     
     
-           <div id="main_div">
+           <div id="main_div" >
            <Link id="button"  to="/">Deals</Link>
            
        </div>
@@ -116,14 +116,14 @@ const Navbar = () => {
     
     
     
-       <div id="main_div">
+       <div id="main_div" >
        <Link id="button"  to="/">What's New</Link>
       
     </div>
     
     
     
-    <div id="main_div">
+    <div id="main_div" >
     <Link id="button"  to="/">Delivery</Link>
   
     </div>
@@ -134,6 +134,12 @@ const Navbar = () => {
     
     
     </div>
+{/* Dropdown for media query */}
+
+
+
+{/* end here */}
+
     {/* <!-- parent-box-1 end --> */}
 
     {/* <!-- search part here  --> */}
@@ -145,7 +151,7 @@ const Navbar = () => {
         
         <input  type="text" name="" id="search" placeholder="Search"  />
         
-        <span > <ImSearch style={{marginTop:"10px"}}/></span> 
+        <span id='ImSearch' > <ImSearch style={{marginTop:"10px"}}/></span> 
             
             <div id="two" ></div>
     

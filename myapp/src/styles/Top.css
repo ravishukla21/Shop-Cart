@@ -31,3 +31,19 @@
 
 }
 
+@media screen  and (max-width:1290px){
+ #main{
+    width: 100%;
+ }
+    .mid{
+        display: none;
+    }
+}
+@media screen and (max-width:375px) {
+     #num{
+        display: none;
+     }
+     #lang{
+        display: none;
+     }
+}

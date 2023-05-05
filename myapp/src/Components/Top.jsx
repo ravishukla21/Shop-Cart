@@ -9,7 +9,7 @@ const Top = () => {
   return (
   <div id='main'>
 <div className='contact'>
- <ImPhone /> <p>+9190999002</p>  
+ <ImPhone /> <p id="num">+9190999002</p>  
 </div>
 
 <div className='mid'>
@@ -18,7 +18,7 @@ const Top = () => {
     <div className='end'>
         
             
-                <p><Link>Eng</Link></p>
+                <p id='lang'><Link>Eng</Link></p>
               
                 
                 <p><Link>Location</Link></p>
