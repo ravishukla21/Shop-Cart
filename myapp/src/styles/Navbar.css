@@ -43,7 +43,7 @@ box-sizing: border-box;
 
     height:80px;
     overflow: hidden;
-  
+  margin-top: 1px;
    
 
 }
@@ -491,28 +491,33 @@ sup{
     align-items: center;
 }
 
-@media screen  and (max-width:900px){
+
+@media screen  and (max-width:600px){
   
-#search{
-    display: none;
+#navbar{
+    border:10px solid black;
+    flex-wrap: wrap;
 }
-#ImSearch{
-    display: none;
-}
-#asim1{
-    display: none;
-}
-}
-@media screen  and (max-width:620px){
-  
-    #main_div{
+
+    #search{
+        display: none;
+        border:10px solid black;
+    }
+    #ImSearch{
+        display: none;
+    }
+    #asim1{
         display: none;
     }
 
- 
-}
-
-
+    }
+    /* @media screen  and (max-width:600px){
+      
+        #main_div{
+            display: none;
+        }
+    
+    } */
 
 
 

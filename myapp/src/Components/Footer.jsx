@@ -14,8 +14,8 @@ import { AiFillGift } from "react-icons/ai";
 import { FiHelpCircle } from "react-icons/fi";
 const Footer = () => {
   return (
-    <Box ml={10} mr={10}>
-        <Box borderBottom={"2px solid gray"} ></Box>
+    <Box ml={10} mr={10} >
+        <Box borderBottom={"2px solid gray"}></Box>
     <Flex mt={50} gap={100} >
     <Box className='left'>
         <Box>

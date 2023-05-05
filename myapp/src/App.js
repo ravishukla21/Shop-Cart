@@ -5,14 +5,16 @@ import Navbar from './Components/Navbar';
 import ProductCard from './Components/ProductCard';
 import Footer from './Components/Footer';
 import Authpage from './Pages/Authpage';
+import MidLast from './Components/Mid/MidLast';
 
 function App() {
   return (
     <div className="App">
       <Top/>
       <Navbar/>
-      <ProductCard/>
-      <Authpage/>
+      {/* <ProductCard/> */}
+      <MidLast/>
+      {/* <Authpage/> */}
 
       
       
