@@ -106,7 +106,7 @@ const Navbar = () => {
     
     
     
-           <div id="main_div" >
+           <div id="main_div" className='del'>
            <Link id="button"  to="/">Deals</Link>
            
        </div>
@@ -116,14 +116,14 @@ const Navbar = () => {
     
     
     
-       <div id="main_div" >
+       <div id="main_div" className='del'>
        <Link id="button"  to="/">What's New</Link>
       
     </div>
     
     
     
-    <div id="main_div" >
+    <div id="main_div" className='del' >
     <Link id="button"  to="/">Delivery</Link>
   
     </div>
@@ -149,7 +149,7 @@ const Navbar = () => {
     <div className="div1" style={{display:"flex"}}>
    
         
-        <input  type="text" name="" id="search" placeholder="Search"  />
+        <input  type="text" name=""  id="search" placeholder="Search"  />
         
         <span id='ImSearch' > <ImSearch style={{marginTop:"10px"}}/></span> 
             
@@ -173,7 +173,7 @@ const Navbar = () => {
              Account
              </Link>
              </h5>
-            <div id="asim7">
+            <div id="asim7" >
               <div id="b">
                  <div className="div" id="d1">
                      <h5 id="lh5">Welcome</h5>
@@ -215,7 +215,7 @@ const Navbar = () => {
    
   
     
-        <div>
+        <div className='cart' >
             
         <Link id="cart_tag" to="/" style={{display:"flex",textAlign:"center",gap:"8px"}}>
         <MdShoppingCartCheckout style={{marginTop:"3px"}}/>

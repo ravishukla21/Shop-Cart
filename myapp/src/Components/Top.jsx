@@ -21,7 +21,7 @@ const Top = () => {
                 <p id='lang'><Link>Eng</Link></p>
               
                 
-                <p><Link>Location</Link></p>
+                <p className='loc'><Link>Location</Link></p>
                
 
             

@@ -32,18 +32,23 @@
 }
 
 @media screen  and (max-width:1290px){
- #main{
-    width: 100%;
- }
-    .mid{
-        display: none;
+    #main{
+       width: 100%;
+       flex-wrap: wrap;
     }
-}
-@media screen and (max-width:375px) {
-     #num{
-        display: none;
-     }
-     #lang{
-        display: none;
-     }
-}
+       .mid{
+           display: none;
+       }
+   }
+   @media screen and (max-width:375px) {
+    
+        #num{
+           display: none;
+        }
+        #lang{
+           display: none;
+        }
+        .end :nth-child(2){
+            display: none;
+        }
+   }

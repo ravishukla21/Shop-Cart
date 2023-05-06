@@ -492,32 +492,55 @@ sup{
 }
 
 
-@media screen  and (max-width:600px){
+@media screen  and (max-width:1200px){
   
-#navbar{
-    border:10px solid black;
-    flex-wrap: wrap;
+    #navbar{
+        flex-wrap: wrap;
+    }
+
+    input{
+        display:none
+    }
+#ImSearch{
+    display: none;
+}
+#profile_tag{
+   
+   align-items: center
+}
+#asim7{
+    display: none;
 }
 
-    #search{
-        display: none;
-        border:10px solid black;
-    }
-    #ImSearch{
-        display: none;
-    }
-    #asim1{
-        display: none;
-    }
+
 
     }
-    /* @media screen  and (max-width:600px){
-      
-        #main_div{
-            display: none;
+    @media screen  and (max-width:600px){
+        #navbar{
+            flex-wrap: wrap;
         }
+
+ .logo_div{
+    display: none;
+ }
+  .cart,.last{
+    display: none;
+  }
+
+  .del{
+    display: none;
+  }
+       #main_div :last-child{
+        display: none;
+       }
+       #main_div{
+        /* border: 2px solid red; */
+       padding: 0;
+       margin-right: 100px;
+       width: wrap;
+       }
     
-    } */
+    }
 
 
 

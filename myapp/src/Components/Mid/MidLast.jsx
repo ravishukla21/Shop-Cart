@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, Text,Heading,Stack,Divider,ButtonGroup,Image,Button, CardBody, CardFooter, Grid, Box, Flex } from '@chakra-ui/react'
+import { Card, Text,Heading,Stack,ButtonGroup,Image,Button, CardFooter, Grid, Box, Flex } from '@chakra-ui/react'
 import { BsDot } from "react-icons/bs";
 import { AiFillTag } from "react-icons/ai";
 import Discount from './Discount';
@@ -7,10 +7,10 @@ import Discount from './Discount';
 
 const MidLast = () => {
   return (
-    <Box m={10} >
+    <Box m={10} fontFamily={"'Inter', sans-serif"} >
         <Discount/>
 
-    <Grid templateColumns='repeat(2, 1fr)' gap={5}>
+    <Grid templateColumns={{xl:'repeat(2, 1fr)' ,lg:'repeat(2, 1fr)' ,base:'repeat(1, 1fr)' }} gap={5}>
       <Card maxW='2xl' >
   <>
     <Image
@@ -67,7 +67,7 @@ const MidLast = () => {
 
     <Heading mt={20} fontsize='20px'>Best Selling Store</Heading>
 
-    <Grid templateColumns='repeat(4, 1fr)' gap={2} mt={8} >
+    <Grid templateColumns={{xl:'repeat(4, 1fr)',lg:'repeat(4, 1fr)',md:'repeat(2, 1fr)',sm:'repeat(1, 1fr)',base:'repeat(1, 1fr)'}} gap={2} mt={8} >
  <Box>
     <>
     <Box position={"relative"}>
@@ -143,7 +143,7 @@ const MidLast = () => {
 
     </Grid >
     <Heading mt={20} fontsize='20px'>Services To Help You Shop</Heading>
-    <Grid templateColumns='repeat(3, 1fr)' gap={5} mt={8} >
+    <Grid templateColumns={{xl:'repeat(3, 1fr)',lg:'repeat(3, 1fr)',md:'repeat(2, 1fr)',sm:'repeat(1, 1fr)',base:'repeat(1, 1fr)'}} gap={5} mt={8} >
         <Card bg={'#f5f6f6'} borderRadius='md' >
           <Stack gap={5} ml={6} p={10} >
             <Heading size={'md'}>Frequently Asked <br /> Questions</Heading>
