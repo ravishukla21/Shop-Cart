@@ -1,8 +1,9 @@
 import { Card, CardHeader, CardBody, CardFooter, Image, Stack, Heading, Text, Button, ButtonGroup, Flex, Spacer, Center } from '@chakra-ui/react'
-// import { Box, Rating, Typography } from '@mui/material';
+import { Box, Rating, Typography } from '@mui/material';
 import React, { useState } from 'react'
-import "../styles/ProductCard.css"
-// import "../styles/Homepage.css"
+// import "../styles/ProductCard.css"
+import "../styles/Homepage.css"
+import star from "../images/star.png"
 
 const ProductCard = () => {
     return (
@@ -25,14 +26,14 @@ const ProductCard = () => {
                         <Text fontSize='10px' as='sub'>
                             Table with air purifier,stained venner/black
                         </Text>
+                        <Flex gap={"10px"} alignItems={"center"}>
+                            <img src={star} alt="5star" className='stars' />
+                            <Text>(121)</Text>
+                        </Flex>
 
                     </Stack>
                 </CardBody>
-                {/* mui */}
-                {/* <Rating name="read-only" value={5} readOnly /> */}
-                {/* mui end */}
-
-                <CardFooter>
+                <CardFooter marginTop={"-20px"}>
                     <ButtonGroup spacing='2'>
                         <Button className='atcBtn' style={{ borderRadius: "30px", padding: "20px 15px", }} colorScheme="#003d29"
                             variant='outline'>

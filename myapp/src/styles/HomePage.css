@@ -2,6 +2,11 @@
   background-color: #003d29;
   color: white;
 }
+.stars{
+    /* border: 2px solid red; */
+    width: 90px;
+    height: 20px ;
+}
 .categories {
   border-radius: 15px;
 }
