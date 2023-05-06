@@ -1,6 +1,6 @@
 import { Grid, GridItem, Heading, Spacer, Text } from '@chakra-ui/react';
 import React from 'react'
-import "../styles/Homepage.css"
+import "../styles/HomePage.css"
 
 const Categories = () => {
     return (
