@@ -1,28 +1,17 @@
-// import logo from './logo.svg';
 import './App.css';
 import Footer from './Components/Footer';
-
-import Authpage from './Pages/Authpage';
-import MidLast from './Components/Mid/MidLast';
-import Payment from './Pages/Payment';
-import OnePage from './Components/Mid/OnePage';
-
-
+import Top from './Components/Top';
+import Navbar from './Components/Navbar';
+import MainRoutes from './Pages/MainRoutes';
 
 
 function App() {
   return (
     <div className="App">
-     {/* <HomePage/> */}
-     <Top/>
-      <Navbar/>
-
-      <Payment/>
-      
-
-      <ProductPage/>
-
-      <Footer/>
+      <Top/>
+      <Navbar />
+      <MainRoutes />
+      <Footer />
     </div>
   );
 }
