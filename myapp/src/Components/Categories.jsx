@@ -10,13 +10,7 @@ const Categories = () => {
             <Spacer />
             <Grid
                 className="catgrid grid-container"
-                h="200px"
-                templateColumns={[
-                    "repeat(2, 1fr)", // For mobile screens
-                    "repeat(3, 1fr)", // For iPad screens
-                    "repeat(6, 190px)", // For larger screens
-                ]}
-                gap={5}
+                h="200px"                                    
             >
                 <GridItem className="categories head-text grid-item" colSpan={1}>
                     <div>

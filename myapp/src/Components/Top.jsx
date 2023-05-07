@@ -7,21 +7,21 @@ import { Link } from 'react-router-dom';
 
 const Top = () => {
   return (
-  <div id='main' style={{height:"30px", paddingTop:"5px",paddingBottom:"3px"}}>
+  <div id='main' style={{height:"30px", paddingTop:"5px",paddingBottom:"3px" ,color:"white"}}>
 <div className='contact'>
- <ImPhone /> <p id="num">+9190999002</p>  
+ <ImPhone /> <p style={{color:"white"}} id="num">+9190999002</p>  
 </div>
 
-<div className='mid'>
-    <p>Get 50% off on Selected items  </p> <p> |  Shop Now</p> 
+<div  className='mid'>
+        <p style={{ color: "white" }}>Get 50% off on Selected items  </p> <p style={{ color: "white" }}> |  Shop Now</p> 
 </div>
     <div className='end'>
         
             
-                <p id='lang'><Link>Eng</Link></p>
+        <p style={{ color: "white" }} id='lang'><Link>Eng</Link></p>
               
                 
-                <p className='loc'><Link>Location</Link></p>
+        <p style={{ color: "white" }} className='loc'><Link>Location</Link></p>
                
 
             

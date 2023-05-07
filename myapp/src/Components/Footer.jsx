@@ -14,7 +14,7 @@ import { AiFillGift } from "react-icons/ai";
 import { FiHelpCircle } from "react-icons/fi";
 const Footer = () => {
   return (
-    <Box ml={10} mr={10} >
+    <Box ml={100} mr={10} mt={50}  >
         <Box borderBottom={"2px solid gray"}></Box>
     <Flex mt={50} gap={100} flexDirection={{xl:'row',lg:'row',base:'column'}} >
     <Box className='left' fontFamily={"'Inter', sans-serif"}>
@@ -97,9 +97,9 @@ const Footer = () => {
           
         </Box>
  
-    <Box className="right"   >
+    <Box className="right"  >
     
-  <Table size='sm' w={'wrap'} >
+  <Table size={{base:'sm',xs:'xs'}} w={'wrap'} width={"100%"} >
   <Thead  >
     <Tr  >
          <Th fontSize={['xs', 'md','sm']}  >Department</Th>
