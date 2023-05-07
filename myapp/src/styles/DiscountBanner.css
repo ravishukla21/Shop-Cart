@@ -3,6 +3,8 @@
 }
 section {
   display: block;
+  margin: 0px 100px;
+  border-radius: 30px;
 }
 .discount-banner-two {
   padding-top: 0px;

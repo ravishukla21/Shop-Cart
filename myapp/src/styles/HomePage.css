@@ -2,13 +2,12 @@
   background-color: #003d29;
   color: white;
 }
-.stars{
-    /* border: 2px solid red; */
-    width: 90px;
-    height: 20px ;
-}
+
 .categories {
   border-radius: 15px;
+}
+.categories_section{
+  margin-bottom: 400px;
 }
 .head-text {
   position: relative;
@@ -22,7 +21,7 @@
   /* border:  1px solid red; */
 }
 .categories_section {
-  margin-top: 50px;
+  /* margin-top: 50px; */
   margin-left: 100px;
 }
 /* Categories responsiveness */
@@ -48,6 +47,7 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 10px;
+    overflow: hidden;
   }
 /* 
   .grid-item {

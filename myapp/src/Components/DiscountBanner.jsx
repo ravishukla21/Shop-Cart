@@ -3,7 +3,7 @@ import "../styles/DiscountBanner.css"
 
 const DiscountBanner = () => {
     return (
-        <div><section className="discount-banner-two">
+        <div><section className="discount-banner-two" >
             <div className="container">
                 <div className="discount-banner-content-two d-flex">
                     <div className="discount-banner-content-inner">

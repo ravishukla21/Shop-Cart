@@ -7,10 +7,10 @@ import Discount from './Discount';
 
 const MidLast = () => {
   return (
-    <Box m={10} fontFamily={"'Inter', sans-serif"} >
+    <Box fontFamily={"'Inter', sans-serif"}  ml={100} mr={100} mb={50}>
         <Discount/>
 
-    <Grid templateColumns={{xl:'repeat(2, 1fr)' ,lg:'repeat(2, 1fr)' ,base:'repeat(1, 1fr)' }} gap={5}>
+    <Grid mt={100} templateColumns={{xl:'repeat(2, 1fr)' ,lg:'repeat(2, 1fr)' ,base:'repeat(1, 1fr)' }} gap={5}>
       <Card maxW='2xl' >
   <>
     <Image
