@@ -1,0 +1,320 @@
+.cartcontainer {
+  font-size: 1.1rem;
+  display: flex;
+}
+
+.cartcontainer i {
+  font-size: 1rem;
+}
+
+.imagecontainer {
+  border: 0px solid rgb(236, 52, 11);
+  position: relative;
+}
+
+.imageitem {
+  min-width: 100%;
+  transform: translateX(-100%);
+}
+
+.imageitem img {
+  width: 100%;
+  height: 100%;
+}
+
+.imagebtncontainer {
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* prductcardcontainer */
+.cardproductcontainer {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 60px;
+}
+@media (min-width: 0px) and (max-width: 850px) {
+  .cardproductcontainer {
+    margin: auto;
+    display: none;
+    justify-content: center;
+  }
+  .cardproductcontainer button {
+    margin-left: 20px;
+    display: none;
+
+  }
+  .cardproductcontainer > div:nth-child(1) > div {
+    margin-left: -25px;
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    display: none;
+
+  }
+  .cardproductcontainer > div:nth-child(4) {
+    display: none;
+  }
+  .cardproductcontainer > div:nth-child(2) {
+    display: none;
+  }
+  .cardproductcontainer > div:nth-child(3) {
+    display: none;
+  }
+}
+
+.main {
+  position: relative;
+  top: -350px;
+  margin-bottom: "-350px";
+}
+
+.cardproduct {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 300px;
+}
+
+.cardproduct h2 {
+  margin: 0;
+  padding: 10px;
+  margin-left: 5px;
+}
+
+.cardproductbtn {
+  font-size: 14px;
+  align-self: flex-start;
+  margin: 7px 15px;
+  padding-left: 0;
+  border: none;
+  color: rgb(53, 62, 62);
+}
+
+.cardproductbtn:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 14px;
+  align-self: flex-start;
+  margin: 7px 10px;
+  padding-left: 0;
+  background-color: transparent;
+  border: none;
+  color: rgb(139, 212, 212);
+}
+
+/* .cardnested{
+} */
+.signinbtn {
+  border: none;
+  font-weight: bolder;
+  border-radius: 10px;
+  height: 30px;
+  margin-bottom: 2px;
+  color: rgb(36, 31, 31);
+}
+
+.cardnested p {
+  margin: 2px;
+  padding-bottom: 2px;
+}
+
+.cardnested p:hover {
+  margin: 2px;
+  padding-bottom: 2px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.cardnested img {
+  width: 128px;
+  height: 102px;
+  object-fit: cover;
+}
+
+.cardproductnestedcard {
+  display: flex;
+
+  /* max-width: 300px; */
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.sliderbtn {
+  border: none;
+
+  padding: 110px 40px;
+  font-size: 50px;
+  font-weight: 300px;
+  background-color: transparent;
+  color: black;
+}
+
+.sliderbtn:hover {
+  border: 1px solid black;
+  -moz-box-shadow: 0 0 5px #e41919;
+  -webkit-box-shadow: 0 0 5px #c31313;
+  box-shadow: 0 0 5px #bd1111;
+
+  cursor: pointer;
+  margin: 2px;
+}
+
+/* todaydeal */
+.todaydealscontainer {
+  padding: 30px;
+  box-shadow: -2px -2px -2px rgba(226, 12, 12, 0.1),
+    2px 2px 2px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin-top: -250px;
+  padding: 0px 80px 0px 80px ;
+  margin-right: 80px;
+  /* overflow: ; */
+}
+
+.todaydealsheading {
+  display: flex;
+  align-items: center;
+  padding: 2px 20px;
+}
+@media (min-width: 0px) and (max-width: 850px) {
+  .todaydealscontainer {
+        display: none;
+  }
+  .todaydealsheading a {
+    display: none;
+  }
+  .todaydealsproductitem p {
+    border: 0px solid green;
+    margin-top: 10px;
+    justify-content: center;
+    display: none;
+    
+  }
+}
+
+.todaydealsheading p a {
+  color: rgb(39, 114, 107);
+  text-decoration: none;
+  padding-left: 20px;
+    display: none;
+
+}
+
+.todaydealsheading p a:hover {
+  color: rgb(39, 114, 107);
+  text-decoration: underline;
+  padding-left: 20px;
+  
+}
+
+.todaydealsproductitem {
+  min-width: 220px;
+  border-radius: 5px;
+  padding: 20px 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+    rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+.imagefit {
+  border: 0px solid black;
+}
+
+.imagefit img {
+  width: 100px;
+}
+
+.todaydealsproductitem img {
+  width: auto;
+  height: auto;
+}
+
+.todaydealsproductlist {
+  display: flex;
+  margin: 30px;
+  gap: 40px;
+}
+
+.todaydealsproductcontainer {
+  height: auto;
+  padding: 5px 0px;
+  position: relative;
+}
+
+.discountcontainer {
+  border: 0px solid red;
+}
+
+.discountcontainer a:first-child {
+  background-color: rgb(204, 12, 57);
+  padding: 5px 10px;
+  color: antiquewhite;
+  font-weight: 550;
+  text-decoration: none;
+  border-radius: 3px;
+  font-size: 12px;
+}
+
+.todaydealsbtncontainer {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.todaydealsbtn {
+  padding: 30px 10px;
+  border: 3px solid black;
+  border-radius: 10px;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.4);
+  z-index: 10;
+}
+
+.discountcontainer a:last-child {
+  color: rgb(24, 11, 15);
+  font-weight: 500;
+  padding: 5px 10px;
+  font-size: 12px;
+  text-decoration: none;
+}
+/* cardproduct123 */
+.cardproductcontainer123 {
+  border: 0px solid red;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 60px;
+}
+@media (min-width: 0px) and (max-width: 850px) {
+  .cardproductcontainer123 {
+    margin: auto;
+    justify-content: center;
+    display: none;
+
+  }
+  .cardproductcontainer123 button {
+    display: none;
+    margin-left: 20px;
+  }
+  .cardproductcontainer123 > div:nth-child(1) > div {
+    margin-left: -25px;
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    display: none;
+  }
+  .cardproductcontainer123 > div:nth-child(4) {
+    display: none;
+  }
+  .cardproductcontainer123 > div:nth-child(2) {
+    display: none;
+  }
+  .cardproductcontainer123 > div:nth-child(3) {
+    display: none;
+  }
+}

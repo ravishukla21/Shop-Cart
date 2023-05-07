@@ -2,8 +2,12 @@
   background-color: #003d29;
   color: white;
 }
+
 .categories {
   border-radius: 15px;
+}
+.categories_section{
+  margin-bottom: 400px;
 }
 .head-text {
   position: relative;
@@ -17,6 +21,52 @@
   /* border:  1px solid red; */
 }
 .categories_section {
-  margin-top: 50px;
+  /* margin-top: 50px; */
   margin-left: 100px;
+}
+/* Categories responsiveness */
+/* For laptop screens */
+@media (min-width: 992px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr;
+    grid-gap: 20px;
+  }
+
+  /* .grid-item {
+    border: 1px solid #ddd;
+    padding: 20px;
+  } */
+}
+
+/* For iPad screens */
+@media (min-width: 768px) and (max-width: 991px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 10px;
+    overflow: hidden;
+  }
+/* 
+  .grid-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+  } */
+}
+
+/* For mobile/iphone screens */
+@media (max-width: 767px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    grid-gap: 10px;
+  }
+
+  /* .grid-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+  } */
 }
