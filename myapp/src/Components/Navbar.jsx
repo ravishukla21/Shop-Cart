@@ -20,80 +20,80 @@ const Navbar = () => {
 
 
                 <div className="logo_div">
-                    <Link to="/"> <img style={{ width: "150px", border: "0px solid red", height: "50px" }} id="logo" src={logo} alt='logo' /></Link>
+                    <Link to="/productpage"> <img style={{ width: "150px", border: "0px solid red", height: "50px" }} id="logo" src={logo} alt='logo' /></Link>
                 </div>
 
                 <div className="menu_div " style={{ padding: "10px" }}>
 
                     <div id="main_div">
-                        <Link id="button" to="/" style={{ fontSize: "20px" }} >Categories</Link>
+                        <Link id="button" to="/productpage" style={{ fontSize: "20px" }} >Categories</Link>
                         <div id="asim1">
                             <div id="b">
                                 <div className="div" id="d1">
-                                    <h5 className="h5"><Link to="/">Furniture</Link></h5>
+                                    <h5 className="h5"><Link to="/productpage">Furniture</Link></h5>
                                     <ul>
-                                        <li><Link to="/">T-shirts</Link></li>
-                                        <li><Link to="/">Casual Shirts</Link></li>
-                                        <li><Link to="/">Formal Shirts</Link></li>
-                                        <li><Link to="/">Sweatshirts</Link></li>
-                                        <li><Link to="/">Sweaters</Link></li>
-                                        <li><Link to="/">Jackets</Link></li>
-                                        <li><Link to="/">Blazers & Coats</Link></li>
-                                        <li><Link to="/">Suits</Link></li>
-                                        <li><Link to="/">Rain Jackets</Link></li>
+                                        <li><Link to="/productpage">T-shirts</Link></li>
+                                        <li><Link to="/productpage">Casual Shirts</Link></li>
+                                        <li><Link to="/productpage">Formal Shirts</Link></li>
+                                        <li><Link to="/productpage">Sweatshirts</Link></li>
+                                        <li><Link to="/productpage">Sweaters</Link></li>
+                                        <li><Link to="/productpage">Jackets</Link></li>
+                                        <li><Link to="/productpage">Blazers & Coats</Link></li>
+                                        <li><Link to="/productpage">Suits</Link></li>
+                                        <li><Link to="/productpage">Rain Jackets</Link></li>
 
                                     </ul>
                                 </div>
                                 <div id="d2">
-                                    <h5 className="h5"><Link to="/">HandBag</Link></h5>
+                                    <h5 className="h5"><Link to="/productpage">HandBag</Link></h5>
                                     <ul>
-                                        <li><Link to="/">Kurtas & Kurta Sets</Link></li>
-                                        <li><Link to="/">Sherwanis</Link></li>
-                                        <li><Link to="/">Nehru Jackets</Link></li>
-                                        <li><Link to="/">Dhotis</Link></li>
+                                        <li><Link to="/productpage">Kurtas & Kurta Sets</Link></li>
+                                        <li><Link to="/productpage">Sherwanis</Link></li>
+                                        <li><Link to="/productpage">Nehru Jackets</Link></li>
+                                        <li><Link to="/productpage">Dhotis</Link></li>
                                     </ul>
                                 </div>
 
                                 <div id="d3">
-                                    <h5 className="h5"><Link to="/">Shoes</Link></h5>
+                                    <h5 className="h5"><Link to="/productpage">Shoes</Link></h5>
                                     <ul>
-                                        <li><Link to="/">Jeans</Link></li>
-                                        <li><Link to="/">Causal Trousers</Link></li>
-                                        <li><Link to="/">Formal Trousers</Link></li>
-                                        <li><Link to="/">Sports</Link></li>
-                                        <li><Link to="/">Track Pants & joggers</Link></li>
+                                        <li><Link to="/productpage">Jeans</Link></li>
+                                        <li><Link to="/productpage">Causal Trousers</Link></li>
+                                        <li><Link to="/productpage">Formal Trousers</Link></li>
+                                        <li><Link to="/productpage">Sports</Link></li>
+                                        <li><Link to="/productpage">Track Pants & joggers</Link></li>
                                     </ul>
 
                                 </div>
                                 <div id="d4">
-                                    <h5 className="h5"><Link to="/"></Link>Headphones</h5>
+                                    <h5 className="h5"><Link to="/productpage"></Link>Headphones</h5>
                                     <ul>
-                                        <li><Link to="/">Briefs & Trunks</Link></li>
-                                        <li><Link to="/">Boxers</Link></li>
-                                        <li><Link to="/">Vests</Link></li>
-                                        <li><Link to="/">Sleepwear & Loungewear</Link></li>
-                                        <li><Link to="/">Thermals</Link></li>
+                                        <li><Link to="/productpage">Briefs & Trunks</Link></li>
+                                        <li><Link to="/productpage">Boxers</Link></li>
+                                        <li><Link to="/productpage">Vests</Link></li>
+                                        <li><Link to="/productpage">Sleepwear & Loungewear</Link></li>
+                                        <li><Link to="/productpage">Thermals</Link></li>
                                     </ul>
-                                    <h5 className="h5"><Link to="/"></Link></h5>
+                                    <h5 className="h5"><Link to="/productpage"></Link></h5>
 
                                 </div>
 
 
                                 <div id="d5">
-                                    <h5 className="h5"><Link to="/">Laptop</Link></h5>
+                                    <h5 className="h5"><Link to="/productpage">Laptop</Link></h5>
                                     <ul>
-                                        <li><Link to="/">Casual Shoes</Link></li>
-                                        <li><Link to="/">Sports Shoes</Link></li>
-                                        <li><Link to="/">Formal Shoes</Link></li>
-                                        <li><Link to="/">Sneakers</Link></li>
-                                        <li><Link to="/">Sandals & Floaters</Link></li>
-                                        <li><Link to="/">Flip Flops</Link></li>
-                                        <li><Link to="/">Socks</Link></li>
+                                        <li><Link to="/productpage">Casual Shoes</Link></li>
+                                        <li><Link to="/productpage">Sports Shoes</Link></li>
+                                        <li><Link to="/productpage">Formal Shoes</Link></li>
+                                        <li><Link to="/productpage">Sneakers</Link></li>
+                                        <li><Link to="/productpage">Sandals & Floaters</Link></li>
+                                        <li><Link to="/productpage">Flip Flops</Link></li>
+                                        <li><Link to="/productpage">Socks</Link></li>
                                     </ul>
 
                                 </div>
                                 <div id="d6">
-                                    <h5 className="h5"><Link to="/">Books</Link></h5>
+                                    <h5 className="h5"><Link to="/productpage">Books</Link></h5>
 
                                 </div>
 
@@ -107,7 +107,7 @@ const Navbar = () => {
 
 
                     <div id="main_div" className='del'>
-                        <Link id="button" to="/" style={{ fontSize: "20px" }}>Deals</Link>
+                        <Link id="button" to="/productpage" style={{ fontSize: "20px" }}>Deals</Link>
 
                     </div>
 
@@ -117,14 +117,14 @@ const Navbar = () => {
 
 
                     <div id="main_div" className='del'>
-                        <Link id="button" to="/" style={{ fontSize: "20px" }}>What's New</Link>
+                        <Link id="button" to="/productpage" style={{ fontSize: "20px" }}>What's New</Link>
 
                     </div>
 
 
 
                     <div id="main_div" className='del' >
-                        <Link id="button" to="/" style={{ fontSize: "20px" }}>Delivery</Link>
+                        <Link id="button" to="/productpage" style={{ fontSize: "20px" }}>Delivery</Link>
 
                     </div>
 
@@ -167,7 +167,7 @@ const Navbar = () => {
                     <div id="main_div">
 
                         <h5 id="profile_tag">
-                            <Link to="/" style={{ display: "flex", alignItems: "center", marginBottom: "30px", gap: "5px" }}>
+                            <Link to="/productpage" style={{ display: "flex", alignItems: "center", marginBottom: "30px", gap: "5px" }}>
                                 <span > <ImUser /></span>
 
                                 Account
@@ -178,15 +178,15 @@ const Navbar = () => {
                                 <div className="div" id="d1">
                                     <h5 id="lh5">Welcome</h5>
                                     <p id="lp">To access account and manage order</p>
-                                    <button id="ls"><Link id="logincss" to="/"><Login /></Link></button>
+                                    <button id="ls"><Link id="logincss" to="/productpage"><Login /></Link></button>
                                     <br />
                                     <>
                                         <ul style={{ textAlign: "left" }}>
                                             <li><Link to="3">Order</Link></li>
-                                            <li><Link to="/">Wishlist</Link></li>
-                                            <li><Link to="/">Gift card</Link></li>
-                                            <li><Link to="/">Contact us</Link></li>
-                                            <li><Link to="/">ShopCart Insider <button id="insider_span">New</button></Link></li>
+                                            <li><Link to="/productpage">Wishlist</Link></li>
+                                            <li><Link to="/productpage">Gift card</Link></li>
+                                            <li><Link to="/productpage">Contact us</Link></li>
+                                            <li><Link to="/productpage">ShopCart Insider <button id="insider_span">New</button></Link></li>
 
                                         </ul>
 
@@ -217,7 +217,7 @@ const Navbar = () => {
 
                     <div className='cart' >
 
-                        <Link id="cart_tag" to="/" style={{ display: "flex", textAlign: "center", gap: "8px" }}>
+                        <Link id="cart_tag" to="/productpage" style={{ display: "flex", textAlign: "center", gap: "8px" }}>
                             <MdShoppingCartCheckout style={{ marginTop: "3px" }} />
                             Cart
                         </Link>
