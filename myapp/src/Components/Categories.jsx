@@ -1,6 +1,6 @@
 import { Grid, GridItem, Heading, Spacer, Text } from '@chakra-ui/react';
 import React from 'react'
-import "../styles/Homepage.css"
+import "../styles/HomePage.css"
 
 const Categories = () => {
     return (
@@ -9,7 +9,7 @@ const Categories = () => {
 
             <Spacer />
             <Grid
-                className="catgrid"
+                className="catgrid grid-container"
                 h="200px"
                 templateColumns={[
                     "repeat(2, 1fr)", // For mobile screens
@@ -18,7 +18,7 @@ const Categories = () => {
                 ]}
                 gap={5}
             >
-                <GridItem className="categories head-text" colSpan={1}>
+                <GridItem className="categories head-text grid-item" colSpan={1}>
                     <div>
                         <img
                             className="categories"
@@ -32,7 +32,7 @@ const Categories = () => {
                         </Text>
                     </div>
                 </GridItem>
-                <GridItem className="categories head-text" colSpan={1}>
+                <GridItem className="categories head-text grid-item" colSpan={1}>
                     <div>
                         <img
                             className="categories"
@@ -46,7 +46,7 @@ const Categories = () => {
                         </Text>
                     </div>
                 </GridItem>
-                <GridItem className="categories head-text" colSpan={1}>
+                <GridItem className="categories head-text grid-item" colSpan={1}>
                     <div>
                         <img
                             className="categories"
@@ -60,7 +60,7 @@ const Categories = () => {
                         </Text>
                     </div>
                 </GridItem>
-                <GridItem className="categories head-text" colSpan={1}>
+                <GridItem className="categories head-text grid-item" colSpan={1}>
                     <div>
                         <img
                             className="categories"
@@ -74,7 +74,7 @@ const Categories = () => {
                         </Text>
                     </div>
                 </GridItem>
-                <GridItem className="categories head-text" colSpan={1}>
+                <GridItem className="categories head-text grid-item" colSpan={1}>
                     <div>
                         <img
                             className="categories"
@@ -88,7 +88,7 @@ const Categories = () => {
                         </Text>
                     </div>
                 </GridItem>
-                <GridItem className='categories head-text' colSpan={1}>
+                <GridItem className='categories head-text grid-item' colSpan={1}>
                     <div>
                         <img className='categories' src="https://uploads-ssl.webflow.com/63e857eaeaf853471d5335ff/63e8c4e570738029a725e686_Furniture-min.png" alt="" />
                     </div>

@@ -1,8 +1,7 @@
 import { Card, CardHeader, CardBody, CardFooter, Image, Stack, Heading, Text, Button, ButtonGroup, Flex, Spacer, Center } from '@chakra-ui/react'
-import { Box, Rating, Typography } from '@mui/material';
 import React, { useState } from 'react'
 // import "../styles/ProductCard.css"
-import "../styles/Homepage.css"
+import "../styles/HomePage.css"
 import star from "../images/star.png"
 
 const ProductCard = () => {
