@@ -1,0 +1,12 @@
+.atcBtn:hover{
+    background-color: #003d29;
+    color: white;
+}
+.title{
+    display: flex;
+    flex-wrap: wrap;
+}
+.stars{
+    width: 90px;
+    height: 20px ;
+}

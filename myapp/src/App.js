@@ -1,5 +1,8 @@
 // import logo from './logo.svg';
 import './App.css';
+import Footer from './Components/Footer';
+import Navbar from './Components/Navbar';
+import Top from './Components/Top';
 // import Top from './Components/Top';
 // import Navbar from './Components/Navbar';
 // import ProductCard from './Components/ProductCard';
@@ -12,11 +15,15 @@ import './App.css';
 // import Categories from "./Components/Categories"
 // import Slider from "./Components/Slider"
 import HomePage from './Pages/HomePage';
+import ProductPage from './Pages/ProductPage';
 function App() {
   return (
     <div className="App">
-     <HomePage/>
-
+     {/* <HomePage/> */}
+     <Top/>
+      <Navbar/>
+      <ProductPage/>
+      <Footer/>
     </div>
   );
 }
