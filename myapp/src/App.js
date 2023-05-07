@@ -6,6 +6,8 @@ import ProductCard from './Components/ProductCard';
 import Footer from './Components/Footer';
 import Authpage from './Pages/Authpage';
 import MidLast from './Components/Mid/MidLast';
+import Payment from './Pages/Payment';
+import OnePage from './Components/Mid/OnePage';
 
 function App() {
   return (
@@ -13,10 +15,10 @@ function App() {
       <Top/>
       <Navbar/>
       {/* <ProductCard/> */}
-      <MidLast/>
+      {/* <MidLast/> */}
       {/* <Authpage/> */}
-
-      
+{/* <OnePage/> */}
+      <Payment/>
       
       <Footer/>
 
