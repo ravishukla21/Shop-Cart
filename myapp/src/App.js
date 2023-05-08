@@ -2,10 +2,14 @@
 import './App.css';
 import Footer from './Components/Footer';
 
-import Authpage from './Pages/Authpage';
-import MidLast from './Components/Mid/MidLast';
 import Payment from './Pages/Payment';
-import OnePage from './Components/Mid/OnePage';
+
+import Navbar from './Components/Navbar';
+import HomePage from './Pages/HomePage';
+import Top from './Components/Top';
+
+import ProductPage from './Pages/ProductPage';
+import MainRoutes from './Pages/MainRoutes';
 
 
 
@@ -16,11 +20,11 @@ function App() {
      {/* <HomePage/> */}
      <Top/>
       <Navbar/>
-
-      <Payment/>
+{/* <HomePage/> */}
+      {/* <Payment/> */}
       
-
-      <ProductPage/>
+<MainRoutes/>
+  
 
       <Footer/>
     </div>

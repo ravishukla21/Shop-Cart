@@ -9,7 +9,7 @@ const ProductPage=()=>{
     const[ searchParams,setSearchParams]=useSearchParams()
     let initialPage=searchParams.get(Number("page"))
     const[page,setPage]=useState(initialPage||1)
-    // console.log(searchParams.get("category")==="Jewellery")
+    
     let paramsObj={
         params: {
           category: searchParams.get("category"),
@@ -33,7 +33,7 @@ const ProductPage=()=>{
     return<Box>
         {/* <Heading>{count}</Heading> */
     
-    <Box border="1px solid red" m={{base:'5px 45px 10px 50px',}} >
+    <Box border="1px solid red" m={{base:'40px 45px 10px 50px',}} >
 
  
 
@@ -66,7 +66,7 @@ const ProductPage=()=>{
         <Button isDisabled>{page}</Button>
         <Button isDisabled={page>3} onClick={(e)=>handleClick(1)}>next</Button>
         </Box>
-    {/* <Button onClick={()=>setCount(count+1)} >click</Button> */}
+    
     </Box>
 }
 export  default ProductPage
