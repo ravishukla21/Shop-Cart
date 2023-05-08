@@ -1,8 +1,3 @@
-import React from 'react'
-import "../styles/Navbar.css"
-import { Link } from 'react-router-dom'
-import logo from "../images/ShopCart.png"
-
 
 import { MdShoppingCartCheckout } from "react-icons/md";
 import { ImUser } from "react-icons/im";
@@ -23,7 +18,7 @@ const Navbar = () => {
 
 
                 <div className="logo_div">
-                    <Link to="/productpage"> <img style={{ width: "150px", border: "0px solid red", height: "50px" }} id="logo" src={logo} alt='logo' /></Link>
+                    <Link to="/"> <img style={{ width: "150px", border: "0px solid red", height: "50px" }} id="logo" src={logo} alt='logo' /></Link>
                 </div>
 
                 <div className="menu_div " style={{ padding: "10px" }}>
@@ -185,7 +180,7 @@ const Navbar = () => {
                                     <br />
                                     <>
                                         <ul style={{ textAlign: "left" }}>
-                                            <li><Link to="3">Order</Link></li>
+                                            <li><Link to="/admin">ADMIN</Link></li>
                                             <li><Link to="/productpage">Wishlist</Link></li>
                                             <li><Link to="/productpage">Gift card</Link></li>
                                             <li><Link to="/productpage">Contact us</Link></li>
@@ -236,4 +231,7 @@ const Navbar = () => {
 
 }
 
+
 export default Navbar;
+
+

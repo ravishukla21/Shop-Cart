@@ -14,18 +14,16 @@ import Footer from '../Components/Footer'
 const HomePage = () => {
     return (
         <div style={{padding:"2px 2px"}}>
-            {/* <Top /> */}
-            {/* <Navbar /> */}
+
             <MidLast />
             <Categories />
             <Slider />
-            {/* <ProductCard /> */}
+        
             <Brands />
             <Discount />
             <DiscountBanner />
-            
-            {/* <Authpage/> */}
-            {/* <Footer /> */}
+           
+
         </div>
     )
 }
