@@ -33,14 +33,16 @@
 
 @media screen  and (max-width:1290px){
     #main{
-       width: 100%;
-       flex-wrap: wrap;
+       width: "flex-wrap";
+      
+       
+       /* border: 2px solid red; */
     }
        .mid{
            display: none;
        }
    }
-   @media screen and (max-width:375px) {
+   @media screen and (max-width:420px) {
     
         #num{
            display: none;
