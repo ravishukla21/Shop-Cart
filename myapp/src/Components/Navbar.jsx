@@ -7,10 +7,13 @@ import logo from "../images/ShopCart.png"
 import { MdShoppingCartCheckout } from "react-icons/md";
 import { ImUser } from "react-icons/im";
 import { ImSearch } from "react-icons/im";
-import Login from '../Pages/Login';
+import User from '../Pages/User';
+
 
 
 const Navbar = () => {
+    const [user]=User();
+  
     return <div className="nav_up" >
         <div id="navbar" >
 
@@ -118,7 +121,6 @@ const Navbar = () => {
 
                     <div id="main_div" className='del'>
                         <Link id="button" to="/productpage" style={{ fontSize: "20px" }}>What's New</Link>
-
                     </div>
 
 
@@ -176,9 +178,10 @@ const Navbar = () => {
                         <div id="asim7" >
                             <div id="b">
                                 <div className="div" id="d1">
-                                    <h5 id="lh5">Welcome</h5>
+                                   
+                                    <h5>{user ? `Welcome - ${user}` : "Login please"}</h5>
                                     <p id="lp">To access account and manage order</p>
-                                    <button id="ls"><Link id="logincss" to="/productpage"><Login /></Link></button>
+                                    <button id="ls"><Link id="logincss" to="login" >Login</Link></button>
                                     <br />
                                     <>
                                         <ul style={{ textAlign: "left" }}>
@@ -187,7 +190,6 @@ const Navbar = () => {
                                             <li><Link to="/productpage">Gift card</Link></li>
                                             <li><Link to="/productpage">Contact us</Link></li>
                                             <li><Link to="/productpage">ShopCart Insider <button id="insider_span">New</button></Link></li>
-
                                         </ul>
 
                                     </>
@@ -234,4 +236,4 @@ const Navbar = () => {
 
 }
 
-export default Navbar
+export default Navbar;
