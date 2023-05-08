@@ -1,4 +1,4 @@
-import React, { useCallback, useState } from 'react'
+import React from 'react'
 import "../styles/Navbar.css"
 import { Link } from 'react-router-dom'
 import logo from "../images/ShopCart.png"
@@ -9,36 +9,12 @@ import {MdShoppingCartCheckout } from "react-icons/md";
 import { ImUser } from "react-icons/im";
 import { ImSearch } from "react-icons/im";
 import Login from '../Pages/Login';
-import axios from 'axios'
-import { getProducts } from '../Redux/AuthReducer/action'
+
 
 
 const Navbar = () => {
 
-const [search,setSearch]=useState("");
 
-const debounce=(func)=>{
-    let timer;
-    
-    return function(...args){
-    const context=this;
-    if(timer) clearTimeout(timer)
-    timer=setTimeout(()=>{
-        timer=null;
-        func.apply(context,args)
-    },2000)
-    }
-}
-
-const handleSearch=(e)=>{
- const {value}=e.target;
-
-//  getProducts(value).then((res)=>setSearch(res.data))
-}
-
-debounce(handleSearch)
-
-console.log(search)
 
 
   return  <div className="nav_up" >
@@ -177,10 +153,9 @@ console.log(search)
 
         <div className='inpSearch'>
             <Box display={'absolute'}>
-<Link to={search?"/product-page":"/"}>
-       <Input placeholder="Search" w={'300px'} name="search" onChange={handleSearch}/>
+
+       <Input placeholder="Search" w={'300px'} name="search" />
              
-</Link>
             </Box>
             
      <Box className='imSearch' >

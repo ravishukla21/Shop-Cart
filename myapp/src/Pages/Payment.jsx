@@ -48,7 +48,7 @@ const Payment = () => {
 
 
     }
-    // console.log(data);
+    
 
     console.log(state)
 
