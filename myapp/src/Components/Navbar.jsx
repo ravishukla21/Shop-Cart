@@ -182,7 +182,7 @@ const Navbar = () => {
                                     <br />
                                     <>
                                         <ul style={{ textAlign: "left" }}>
-                                            <li><Link to="3">Order</Link></li>
+                                            <li><Link to="/admin">ADMIN</Link></li>
                                             <li><Link to="/productpage">Wishlist</Link></li>
                                             <li><Link to="/productpage">Gift card</Link></li>
                                             <li><Link to="/productpage">Contact us</Link></li>

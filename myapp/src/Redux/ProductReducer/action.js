@@ -3,7 +3,7 @@ import axios from "axios";
 
 export const addproduct = (obj) => (dispatch) => {
   dispatch({ type: PRODUCT_REQUEST })
-  axios.post(" http://localhost:8080/products", obj).then((res) => {
+  axios.post(" https://v7wd21.sse.codesandbox.io/products", obj).then((res) => {
     console.log(res.data, "rsdadsffa")
     dispatch({ type: ADD_PRODUCT_SUCCESS, payload: res.data })
 
@@ -16,7 +16,7 @@ export const addproduct = (obj) => (dispatch) => {
 export const getproduct = () => (dispatch) => {
   dispatch({ type: PRODUCT_REQUEST })
   axios.get(`
-  http://localhost:8080/products
+  https://v7wd21.sse.codesandbox.io/products
   `).then((res) => {
     console.log(res.data, "datagetinaction");
     dispatch({ type: GET_PRODUCT_SUCCESS, payload: res.data })
@@ -32,7 +32,7 @@ export const getproduct = () => (dispatch) => {
 export const updateproduct =(id, quantity)=>(dispatch) => {
   dispatch({ type: PRODUCT_REQUEST })
   axios.patch(
-    ` http://localhost:8080/products/${id}`,quantity
+    ` https://v7wd21.sse.codesandbox.io/products/${id}`,quantity
   ).then((res)=>{console.log(res.data,"patchthedata")}
   
   
@@ -47,7 +47,7 @@ export const updateproduct =(id, quantity)=>(dispatch) => {
 
 export const deleteproduct = (id) => (dispatch) => {
   dispatch({ type: PRODUCT_REQUEST })
-  axios.delete(`  http://localhost:8080/products/${id}`).then((res) => {
+  axios.delete(`  https://v7wd21.sse.codesandbox.io/products/${id}`).then((res) => {
     console.log(res, "deletehoga")
     dispatch(getproduct());
     

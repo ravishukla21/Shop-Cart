@@ -3,7 +3,8 @@ import "../styles/Singlepage.css";
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
 
-const SingleProductPage = () => {
+const SingleProductPage = () => {   
+
 
 
   const [product456,setproduct456]=useState({})
