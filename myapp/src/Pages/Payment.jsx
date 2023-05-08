@@ -14,6 +14,7 @@ import logo3 from "../images/applepay.png"
 import logo4 from "../images/googlepay.png"
 import { isDisabled } from '@testing-library/user-event/dist/utils'
 import styles from "../styles/payment.module.css"
+import { Link } from 'react-router-dom'
 
 const initState={
   firstName:'',
@@ -47,15 +48,16 @@ const Payment = () => {
 
 
     }
-    // console.log(data);
+    
 
     console.log(state)
 
   return (
     
     <Box m={"20px 40px 50px 50px"} flex-wrap=' wrap'>
-
+<Link to={'/'}>
   <Text mb={15}>Home / <span style={{fontWeight:"bold"}}>Checkout</span> </Text>
+</Link>
 
       <Grid templateColumns={{xl:'repeat(2,1fr)',lg:'repeat(2,1fr)',base:'repeat(1,1fr)'}} gap={50} mt={19}>
      
@@ -157,8 +159,8 @@ const Payment = () => {
      
        
         {data.length>0 && data.map((item)=>{
-          return <Card border='1px solid gray' h={150} w={300} mt={5} borderRadius={10} align={'left'} p={5}>
-            <Heading size={'md'}>Name: {item.firstName}  {item.lastName}</Heading>
+          return <Card border='1px solid gray' h={200} w={300} mt={5} borderRadius={10} align={'left'} p={3}  >
+            <Heading size={'sm'}>Name: {item.firstName}  {item.lastName}</Heading>
             <Text>Address: {item.homeAddress}</Text>
             <Text>Phone No: {item.phoneNo}</Text>
             <Button p={1} w={220} color={'red'} onClick={()=>setData([])}>Delete</Button>
@@ -192,12 +194,12 @@ const Payment = () => {
   </Radio>
 </Stack>  
             </RadioGroup>
-            <Grid templateColumns={{xl:'repeat(4, 1fr)',lg:'repeat(4, 1fr)',md:'repeat(2, 1fr)',sm:'repeat(1, 1fr)',base:'repeat(1, 1fr)'}} gap={3} mb={10} mt={5} w={{xl:"70%",lg:"70%",base:"30%"}} ml={2}
+            <Grid templateColumns={{xl:'repeat(4, 1fr)',lg:'repeat(4, 1fr)',md:'repeat(2, 1fr)',sm:'repeat(1, 1fr)',base:'repeat(1, 1fr)'}} gap={3} mb={10} mt={5} w={{xl:"60%",lg:"60%",base:"30%"}} ml={2}
        cursor={'pointer'} >
          
          <Box bg='#edf2f7'  borderRadius={'5px'} p={2}>
         
-     <Image src={logo1} alt="logo"   w={{md:"100%",lg:"100%",base:"50%"}} h={6} mt={1}/>
+     <Image src={logo1} alt="logo"   w={{xl:"100%",lg:"100%",base:"50%"}} h={6} mt={1}/>
 
     
         </Box>
@@ -206,7 +208,7 @@ const Payment = () => {
 
         <Box bg='#edf2f7'  borderRadius={'5px'} p={2}>
         
-     <Image src={logo2} alt="logo"  w={{md:"70%",lg:"70%",base:"60%"}} h={5} mt={2} ml={1}/>
+     <Image src={logo2} alt="logo"  w={{xl:"70%",lg:"70%",base:"60%"}} h={5} mt={2} ml={1}/>
     
         </Box>
    
@@ -215,14 +217,14 @@ const Payment = () => {
       
         <Box bg='#edf2f7'  borderRadius={'5px'} p={2} >
         
-     <Image src={logo3} alt="logo"  w={{md:"80%",lg:"80%",base:"60%"}} h={5} mt={1}/>
+     <Image src={logo3} alt="logo"  w={{xl:"80%",lg:"80%",base:"60%"}} h={5} mt={1}/>
      
         </Box>
    
    
         <Box bg='#edf2f7'  borderRadius={'5px'} p={2}>
          
-     <Image src={logo4} alt="logo"  w={{md:"80%",lg:"80%",base:"60%"}} h={5} mt={1}/>
+     <Image src={logo4} alt="logo"  w={{xl:"80%",lg:"80%",base:"60%"}} h={5} mt={1}/>
          
         </Box>
    
@@ -265,19 +267,19 @@ const Payment = () => {
     <Text>Sub Total</Text>
     <Text>$549.00</Text>
 </Flex>
-<Flex justify={'space-between'} flexDirection={{xl:'row',lg:'row',base:'column'}} mt={3}>
+<Flex justify={'space-between'} flexDirection={{xl:'row',lg:'row',base:'column'}} >
     <Text>Tax(10%)</Text>
     <Text>$54.90</Text>
 </Flex>
-<Flex justify={'space-between'} flexDirection={{xl:'row',lg:'row',base:'column'}} mt={3}>
+<Flex justify={'space-between'} flexDirection={{xl:'row',lg:'row',base:'column'}} >
     <Text>Coupon Discount</Text>
     <Text>-$54.90</Text>
 </Flex>
-<Flex justify={'space-between'} flexDirection={{xl:'row',lg:'row',base:'column'}} mt={3}>
+<Flex justify={'space-between'} flexDirection={{xl:'row',lg:'row',base:'column'}} >
     <Text>Shipping Cost</Text>
     <Text>-$0.00</Text>
 </Flex>
-<Box borderBottom={'1px solid gray'}  mt={5}></Box>
+<Box borderBottom={'1px solid gray'}  ></Box>
 <Flex justify={'space-between'} flexDirection={{xl:'row',lg:'row',base:'column'}} mt={5}>
     <Text>Total</Text>
     <Text>=$494.10</Text>
