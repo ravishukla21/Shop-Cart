@@ -20,7 +20,7 @@ const Navbar = () => {
 
 
                 <div className="logo_div">
-                    <Link to="/productpage"> <img style={{ width: "150px", border: "0px solid red", height: "50px" }} id="logo" src={logo} alt='logo' /></Link>
+                    <Link to="/"> <img style={{ width: "150px", border: "0px solid red", height: "50px" }} id="logo" src={logo} alt='logo' /></Link>
                 </div>
 
                 <div className="menu_div " style={{ padding: "10px" }}>
