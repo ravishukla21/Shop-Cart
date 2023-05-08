@@ -3,6 +3,7 @@ import Footer from './Components/Footer';
 import Top from './Components/Top';
 import Navbar from './Components/Navbar';
 import MainRoutes from './Pages/MainRoutes';
+import Authpage from './Pages/Authpage';
 
 
 
