@@ -33,7 +33,9 @@ const ProductPage=()=>{
     return<Box>
         {/* <Heading>{count}</Heading> */
     
-    <Box border="1px solid red" m={{base:'40px 45px 10px 50px',}} >
+
+    <Box border="0px solid red" m={{base:'5px 45px 10px 50px',}} >
+
 
  
 
@@ -61,7 +63,7 @@ const ProductPage=()=>{
     <Grid templateColumns={{xl:'repeat(3, 1fr)' ,lg:'repeat(3, 1fr)' ,base:'repeat(1, 1fr)' }}  >
         {productData?.map(({img,price,brand,title,id})=><ProductCard key={id} id={id} title={title.substring(0,50)} price={price} brand={brand} img={img} />)}
     </Grid>
-    <Box style={{border:"1px solid red",textAlign:"center"}}>
+    <Box style={{border:"0px solid red",textAlign:"center"}}>
         <Button isDisabled={page===1} onClick={()=>handleClick(-1)}>prev</Button>
         <Button isDisabled>{page}</Button>
         <Button isDisabled={page>3} onClick={(e)=>handleClick(1)}>next</Button>
