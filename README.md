@@ -1,5 +1,5 @@
 # actual-size-6883
-<h1>Ezyshop</h1>
+<h1>Shopcart</h1>
 
 This is a clone of template given to us.
 
