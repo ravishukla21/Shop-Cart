@@ -29,11 +29,11 @@ Shopcart is a e-commerce website which is made by a group of 5 members in a span
 
            
 <h3>Screenshots:</h3>
-<img src="homepage.png" alt="screenshot" /> 
-<img src="homepage1.png" alt="screenshot" /> 
-<img src="homepage2.png" alt="screenshot" /> 
-<img src="products.png" alt="screenshot" /> 
-<img src="singleproduct.png" alt="screenshot" /> 
+<img src="src/images/homepage.png" alt="screenshot" /> 
+<img src="src/images/homepage1.png" alt="screenshot" /> 
+<img src="src/images/homepage2.png" alt="screenshot" /> 
+<img src="src/images/products.png" alt="screenshot" /> 
+<img src="src/images/singleproduct.png" alt="screenshot" /> 
 
 <h3>Technologies Used:</h3>
 <ul>
