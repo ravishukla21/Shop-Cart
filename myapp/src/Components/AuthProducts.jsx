@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom';
 import AuthEdit from './AuthEdit';
 
 
-const AuthProducts = () => {
+const AuthProducts = () => {   
     const store = useSelector((store) => store.ProductReducer.todos);
     const dispatch = useDispatch();
     const navigate=useNavigate();
@@ -25,7 +25,30 @@ const AuthProducts = () => {
     }
   
     return (
-        <div>AuthProducts
+        <div>
+        <div style={{ display: "flex", columnGap: "20px" }}>
+        <button style={{ border: "1px solid black", background: "#34d5eb", padding: "5px 40px", borderRadius: "20px" }}>
+          <Link to="/authproducts">ALL PRODUCTS</Link>
+          {"   "}{"   "}
+
+        </button>
+
+        <button style={{ border: "1px solid black", background: "#34d5eb", padding: "5px 40px", borderRadius: "20px" }}>
+
+          <Link to="/authform">ADD PRODUCT</Link>
+          {"   "}{"   "}
+
+
+        </button>
+
+
+
+
+
+
+
+
+      </div>
 
             <table style={{ border: "1px solid black",width:"100%" }}>
                 <thead>

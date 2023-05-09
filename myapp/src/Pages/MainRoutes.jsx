@@ -5,6 +5,10 @@ import ProductPage from './ProductPage'
 import Payment from './Payment'
 import SingleProductPage from '../Components/SingleProductPage';
 import Authpage from './Authpage';
+import AuthProducts from '../Components/AuthProducts';
+import AuthForm from '../Components/AuthForm';
+import AuthEdit from '../Components/AuthEdit';
+
 
 const MainRoutes = () => {
   return (
@@ -16,6 +20,9 @@ const MainRoutes = () => {
         <Route path='/payment' element={<Payment />} />
         {/* <Route path='/login' element={<HomePage />} /> */}
         <Route path="/admin" element={<Authpage/>}></Route>
+        <Route path="/authproducts" element={<AuthProducts/>}></Route>
+        <Route path="/authform" element={<AuthForm />}></Route>
+        <Route path="/authedit/products/:id" element={<AuthEdit />}></Route>
       </Routes>
     </div>
   )
