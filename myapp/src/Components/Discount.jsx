@@ -4,7 +4,7 @@ import { Heading } from '@chakra-ui/react';
 
 const Discount = () => {
     return (
-        <div><section className="get-discount-area">
+        <div style={{width:"100%"}}><section className="get-discount-area">
             <div className="container">
                 <div className="section-title-wrap">
                     <Heading as='h3' size='lg' mb='5'>Get Up to 70% off</Heading>
