@@ -33,13 +33,7 @@ const Authpage = () => {
 
       </div>
 
-      <Routes>
-        <Route path="/" element={<pagepagehome />}></Route>
-        <Route path="/authproducts" element={<AuthProducts />}></Route>
-        <Route path="/authform" element={<AuthForm />}></Route>
-        <Route path="/authedit/products/:id" element={<AuthEdit />}></Route>
-        <Route path="/products/:id" element={<SingleProductPage />}></Route>
-      </Routes>
+    
 
 
 
@@ -49,3 +43,11 @@ const Authpage = () => {
 }
 
 export default Authpage
+
+//   <Routes>
+       
+// <Route path="/authproducts" element={<AuthProducts/>}></Route>
+// <Route path="/authform" element={<AuthForm />}></Route>
+// <Route path="/authedit/products/:id" element={<AuthEdit />}></Route>
+
+// </Routes>

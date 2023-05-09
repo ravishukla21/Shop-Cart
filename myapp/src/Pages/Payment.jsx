@@ -77,7 +77,7 @@ const Payment = () => {
             </Flex>
 
             <Box textAlign={'right'}>
-                <Heading size={{xl:'md',lg:'md',base:'sm'}} mr={5}>$299</Heading>
+                <Heading size={{xl:'md',lg:'md',base:'sm'}} mr={5}>$549.00</Heading>
                 <Text fontWeight={'bold'} mr={5} size={{xl:'md',lg:'md',base:'sm'}} >Quantity:1</Text>
             </Box>
 
