@@ -1,5 +1,5 @@
 # actual-size-6883
-<h1>Ezyshop</h1>
+<h1>CartShop</h1>
 
 This is a clone of template given to us.
 
@@ -35,6 +35,7 @@ Shopcart is a e-commerce website which is made by a group of 5 members in a span
 <img src="src/images/homepage2.png" alt="screenshot" /> 
 <img src="src/images/products.png" alt="screenshot" /> 
 <img src="src/images/singleproduct.png" alt="screenshot" /> 
+
 
 <h3>Technologies Used:</h3>
 <ul>
