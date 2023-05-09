@@ -10,23 +10,22 @@ import DiscountBanner from '../Components/DiscountBanner'
 import MidLast from '../Components/Mid/MidLast'
 import Footer from '../Components/Footer'
 
+
 const HomePage = () => {
     return (
         <div style={{padding:"2px 2px"}}>
-            {/* <Top /> */}
-            {/* <Navbar /> */}
+
             <MidLast />
             <Categories />
             <Slider />
-            {/* <ProductCard /> */}
+        
             <Brands />
             <Discount />
             <DiscountBanner />
-            
-            {/* <Authpage/> */}
-            {/* <Footer /> */}
+           
+
         </div>
     )
 }
 
-export default HomePage
+export default HomePage;

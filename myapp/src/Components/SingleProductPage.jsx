@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import "../styles/Singlepage.css";
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import axios from 'axios';
 
 const SingleProductPage = () => {   
@@ -160,7 +160,8 @@ const SingleProductPage = () => {
             <span>Quantity: {"                               "}<input style={{ width: "125px", border: "2px solid black", fontWeight: "bolder" }} type="number" min="1" defaultValue={"1"} /></span>
             <br />
             <button style={{ width: "125px" }} type="button" class="btn">
-              Add to Cart
+             
+              <Link to="/payment"> Add to Cart</Link>
             </button>
 
             <button style={{ width: "125px" }} type="button" class="btn">Buy Now {"    "} </button>
