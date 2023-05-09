@@ -1,5 +1,5 @@
 import { Box, Button,Grid,Heading,Image } from "@chakra-ui/react"
-import ProductCard from "../Components/ProductCard"
+import MemoizedProductCard from "../Components/ProductCard"
 import { useEffect, useState } from "react"
 import {useDispatch,useSelector} from "react-redux"
 import { getProducts } from "../Redux/AuthReducer/action"
@@ -33,7 +33,7 @@ const ProductPage=()=>{
     return<Box>
         {/* <Heading>{count}</Heading> */
     
-    <Box border="1px solid red" m={{base:'5px 45px 10px 50px',}} >
+    <Box  m={{base:'5px 45px 10px 50px',}} >
 
  
 
@@ -57,11 +57,11 @@ const ProductPage=()=>{
 }
 
 
-        <JsonServerFunctionalities page={page}/>
+        <JsonServerFunctionalities  page={page}/>
     <Grid templateColumns={{xl:'repeat(3, 1fr)' ,lg:'repeat(3, 1fr)' ,base:'repeat(1, 1fr)' }}  >
-        {productData?.map(({img,price,brand,title,id})=><ProductCard key={id} id={id} title={title.substring(0,50)} price={price} brand={brand} img={img} />)}
+        {productData?.map(({img,price,brand,title,id})=><MemoizedProductCard key={id} id={id} title={title.substring(0,50)} price={price} brand={brand} img={img} />)}
     </Grid>
-    <Box style={{border:"1px solid red",textAlign:"center"}}>
+    <Box style={{textAlign:"center"}}>
         <Button isDisabled={page===1} onClick={()=>handleClick(-1)}>prev</Button>
         <Button isDisabled>{page}</Button>
         <Button isDisabled={page>3} onClick={(e)=>handleClick(1)}>next</Button>

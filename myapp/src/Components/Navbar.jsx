@@ -1,16 +1,19 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import "../styles/Navbar.css"
 import { Link } from 'react-router-dom'
 import logo from "../images/ShopCart.png"
 
-
+import { useSearchParams } from 'react-router-dom'
 import { MdShoppingCartCheckout } from "react-icons/md";
 import { ImUser } from "react-icons/im";
 import { ImSearch } from "react-icons/im";
 import Login from '../Pages/Login';
+import { useDispatch } from 'react-redux';
+import { getProducts } from '../Redux/AuthReducer/action';
 
 
 const Navbar = () => {
+    
     return <div className="nav_up" >
         <div id="navbar" >
 
@@ -149,7 +152,7 @@ const Navbar = () => {
                 <div className="div1" style={{ display: "flex" }}>
 
 
-                    <input type="text" name="" id="search" placeholder="Search" />
+                    <input type="text" name="" id="search" placeholder="Search"  />
 
                     <span id='ImSearch' > <ImSearch style={{ marginTop: "10px" }} /></span>
 

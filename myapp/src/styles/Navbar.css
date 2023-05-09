@@ -64,11 +64,13 @@ body {
 
 .parent-box-1 {
   /* border:1px solid blue; */
-  margin-left: 40px;
+  /* background-color: blue; */
+  margin-left: -10px;
   display: flex;
   justify-content: center;
   align-items: end;
-  width: max-content;
+  /* width: max-content; */
+  width: 48%;
   height: 100%;
 }
 .logo_div {
@@ -116,17 +118,22 @@ img {
 
 .parent-box-2 {
   /* border:1px solid red; */
-  margin-left: 70px;
+  /* background-color: black; */
+  /* margin-left: 10px; */
+  /* margin-right: 70px; */
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50%;
+  width: 45%;
   height: 100%;
 }
 
 .div1 > span {
-  /* border-right: 3px solid blue; */
+  border-right: 3px solid blue;
   margin-left: -370px;
+  /* margin-right: 50px; */
+  /* width: auto; */
+  /* margin-left: -300px; */
   /* margin-left: 200px; */
 
   text-align: center;

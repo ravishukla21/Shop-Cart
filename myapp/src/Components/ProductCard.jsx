@@ -45,6 +45,6 @@ const ProductCard = ({img,price,brand,title,id}) => {
         </div>
     )
 }
-// const MemoizedProductCard=memo(ProductCard)
-// export default MemoizedProductCard
-export default ProductCard
+const MemoizedProductCard=memo(ProductCard)
+export default MemoizedProductCard
+// export default ProductCard

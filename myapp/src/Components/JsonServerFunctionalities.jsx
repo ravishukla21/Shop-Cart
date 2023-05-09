@@ -22,12 +22,12 @@ export const JsonServerFunctionalities=({page})=>{
     },[category,brand,order,page])
     return<Flex className={styles.properties}> 
    
-    <Select placeholder='Category' w="10%" value="" onChange={(e)=>handleCategory(e,setCategory)}>
+    <Select placeholder='Category' w="10%"  onChange={(e)=>handleCategory(e,setCategory)}>
   <option value='Headphone'>Headphones</option>
   <option value='shoes'>Shoes</option>
   <option value='Jewellery'>Jewellery</option>
    </Select>
-  <Select placeholder='All Filters' w="10%" value={""} onChange={(e)=>handleFilter(e,setBrand)}>
+  <Select placeholder='All Filters' w="10%"  onChange={(e)=>handleFilter(e,setBrand)}>
   <option value='boAt'>boat</option>
   <option value='JBL'>JBL</option>
   <option value='FIFINE'>FIFINE</option>

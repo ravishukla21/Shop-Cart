@@ -1,6 +1,6 @@
 import { GETPRODUCTS, GET_REQUEST, PRODUCT_FAILURE } from "./actionTypes"
 import axios from "axios"
-export const getProducts=(paramsObj,)=>{
+export const getProducts=(paramsObj)=>{
     // console.log(totalButtons)
     return async(dispatch)=>{
         dispatch({type:GET_REQUEST})
